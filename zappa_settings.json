@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "django_settings": "backend.settings",
+        "profile_name": null,
+        "project_name": "lambda-django",
+        "runtime": "python3.8",
+        "s3_bucket": "zappa-i5kdhtjt4",
+        "vpc_config" : {
+            "SubnetIds": [ "subnet-05711c7c6b11fed09","subnet-0d62bbec91bb1fe4d" ], // use the private subnet
+            "SecurityGroupIds": [ "sg-0949042a99c31e4ad" ]
+        },
+        "cors": true
+    }
+}
+
