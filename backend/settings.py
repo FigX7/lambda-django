@@ -145,4 +145,5 @@ CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = (
        'http://localhost:3000',
+       'https://master.d33urkr3zuoxhb.amplifyapp.com',
 )
